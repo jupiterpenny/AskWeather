@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <link type="text/css" rel="stylesheet" href="style.css" />
+    <title>ASK Weather</title>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCDNCu-OksFHTviZYlQAxkZMHDPI7WvBvA" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="functions.js">
+    </script>
+</head>
+
+<body onload="initialize()">
+    <div id="location"></div>
+    <div id="weather"></div>
+
+    <p> The temperature is: </p>
+    <div id="f"></div>
+    <div id="temperature" style="display: none;"></div>
+    <button id="button" onclick="change();">Change to Celcius</button>
+    <button id="button2" onclick="change2();" style="display: none;">Change to Fahrenheit</button>
+    <div id="one"></div>
+    <div id="two"></div>
+    <div id="three"></div>
+    <p> The Humidity is: </p>
+    <div id="four"></div>
+
+
+
+
+</body>
+
+</html>
